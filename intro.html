@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="music.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <header>
+        <logo>
+            <img src="logo.jpg.png" id="logo-music" >
+        </logo>
+        <text>
+            Favourite
+        </text>
+        <searchbar>
+            <i class="fa fa-search" id="search-block">
+            <!-- <p id="search-txt">Search</p> -->
+            <input placeholder="Search" id="search-txt">
+            <i class="fa fa-microphone"></i>
+        </i>
+        </searchbar>
+        <notification>
+            <i class="fa fa-bell"></i>
+        </notification>
+        <avatar>
+            <img src="avatar.png" id="avatar">
+        </avatar>
+    </header>
+
+<!--  -->
+    <div class="c-body">
+        <div class="container">
+    
+            <input type="radio" name="slider" id="item-1" checked>
+            <input type="radio" name="slider" id="item-2">
+            <input type="radio" name="slider" id="item-3">
+    
+          <div class="cards">
+    
+            <label class="card" for="item-1" id="song-1">
+                <img src="album.jpg" alt="song" height="300"  width="500" >
+            </label>
+    
+            <label class="card" for="item-2" id="song-2">
+                <img src="album.png" alt="song"  height="300" width="500"  >
+            </label>
+    
+            <label class="card" for="item-3" id="song-3">
+                <img src="album.png" alt="song" height="300" width="500" >
+            </label>
+    
+          </div>
+        </div>
+
+    </div>
+
+
+<!--  -->
+    <screen>
+        <div class="block1">
+            <div id="desc">
+                <div id="desc-img">
+                    <img src="album.png"/>
+                </div>
+                <div class="desc-intro">
+                    <div id="desc-head-block">
+                        <h3>ColdPlay</h3>
+                        <p id="desc-follower">851 Followers</p>
+                    </div>
+                    <p style="font-size: 15px; margin: 0px; color: hsl(232deg 10% 72%);">British Band</p>
+                    <p class="instr">Coldplay is a British music band that has enjoyed continuous success since their inception in 1996 through their intelligent and soulful songs. The band members are Chris Martin (lead vocals), Jonny Buckland (lead guitar), Guy Berryman (bass guitar) and Will Champion (drums).</p> 
+                    <div class="desc-btn">
+                        <p class="play-btn">
+                            Play All
+                        </p> 
+                        <p style="font-size:15px;color: hsl(230deg 11% 59%);">Follow</p>
+                    </div>
+                    <p style="font-size: 10px;color: rgb(207, 208, 215); margin: 0px;">247 Tracks | 128 Albums</p>
+                </div>
+            </div>
+            <list>
+                <div class="list-head">
+                    <h1>Similar Artists</h1>
+                    <p>View All</p>
+                </div>
+                <div class="block-list">
+                    <div class="img-music">
+                        <img src="album.jpg" style="width:75px; " />
+                    </div>
+                    <div class="song-name">
+                        <h3>Imagine Dragons</h3>
+                        <p>Pop Bands</p>
+                    </div>
+                    <div class="dots">
+                        <img src="dots.png" style="width:25px;"/>
+                        <p>4:44</p>
+                    </div>
+                </div>
+                <div class="block-list">
+                    <div class="img-music">
+                        <img src="album.jpg" style="width:75px; " />
+                    </div>
+                    <div class="song-name">
+                        <h3>Imagine Dragons</h3>
+                        <p>Pop Bands</p>
+                    </div>
+                    <div class="dots">
+                        <img src="dots.png" style="width:25px;"/>
+                        <p>4:44</p>
+                    </div>
+                </div>
+                <div class="block-list">
+                    <div class="img-music">
+                        <img src="album.jpg" style="width:75px; " />
+                    </div>
+                    <div class="song-name">
+                        <h3>Imagine Dragons</h3>
+                        <p>Pop Bands</p>
+                    </div>
+                    <div class="dots">
+                        <img src="dots.png" style="width:25px;"/>
+                        <p>4:44</p>
+                    </div>
+                </div>
+            </list>
+        </div>
+        <br/>
+        <div class="block1">
+            <similar>
+                <div style="display: flex; width:100%; padding-top:10px;margin: 5px; background:#1a1e33;">
+                    <div class="img-block">
+                        <p style="padding:5px">01</p>
+                        <img src="album.jpg" style="width: 50px; height: 50px;" />
+                        <div class="msc-txt">
+                            <p style="margin: 0px;" >Mirage </p>
+                            <p style="margin: 0px;">Else</p>
+                        </div>
+                    
+                    </div>
+                    <div style="display:flex;flex: 0.6;" ></div>
+                    <div style="display:flex; flex: 0.1;justify-content: space-around; align-items: center;"  >
+                        <i class="fa fa-heart" ></i>
+                        <i class="fa fa-plus" ></i>
+
+                    </div>
+                </div>
+                <div style="display: flex; width:100%; padding-top:10px;margin: 5px; background:#1a1e33;">
+                    <div class="img-block">
+                        <p style="padding:5px">02</p>
+                        <img src="album.jpg" style="width: 50px; height: 50px;" />
+                        <div class="msc-txt">
+                            <p style="margin: 0px;" >Mirage </p>
+                            <p style="margin: 0px;">Else</p>
+                        </div>
+                    
+                    </div>
+                    <div style="display:flex;flex: 0.6;" ></div>
+                    <div style="display:flex; flex: 0.1;justify-content: space-around; align-items: center;"  >
+                        <i class="fa fa-heart" ></i>
+                        <i class="fa fa-plus" ></i>
+
+                    </div>
+                </div>
+                <div style="display: flex; width:100%; padding-top:10px;margin: 5px; background:#1a1e33;">
+                    <div class="img-block">
+                        <p style="padding:5px">03</p>
+                        <img src="album.jpg" style="width: 50px; height: 50px;" />
+                        <div class="msc-txt">
+                            <p style="margin: 0px;" >Mirage </p>
+                            <p style="margin: 0px;">Else</p>
+                        </div>
+                    
+                    </div>
+                    <div style="display:flex;flex: 0.6;" ></div>
+                    <div style="display:flex; flex: 0.1;justify-content: space-around; align-items: center;"  >
+                        <i class="fa fa-heart" ></i>
+                        <i class="fa fa-plus" ></i>
+
+                    </div>
+                </div>
+                <div style="display: flex; width:100%; padding-top:10px;margin: 5px; background:#1a1e33;">
+                    <div class="img-block">
+                        <p style="padding:5px">04</p>
+                        <img src="album.jpg" style="width: 50px; height: 50px;" />
+                        <div class="msc-txt">
+                            <p style="margin: 0px;" >Mirage </p>
+                            <p style="margin: 0px;">Else</p>
+                        </div>
+                    
+                    </div>
+                    <div style="display:flex;flex: 0.6;" ></div>
+                    <div style="display:flex; flex: 0.1;justify-content: space-around; align-items: center;"  >
+                        <i class="fa fa-heart" ></i>
+                        <i class="fa fa-plus" ></i>
+
+                    </div>
+                </div>
+            </similar>
+            <recently>
+                <div class="list-head">
+                    <h1>Recently Played</h1>
+                    <p>View All</p>
+                </div>
+                <div style="display:flex;">
+                    <div class="img-block">
+                        <p style="padding:5px">01</p>
+                        <img src="album.jpg" style="width: 50px; height: 50px;" />
+                        <div class="msc-txt">
+                            <p style="margin: 0px;" >Mirage </p>
+                            <p style="margin: 0px;">Else</p>
+                        </div>
+                    </div>
+                    <div style="display:flex;flex: 0.6;" ></div>
+                    <div style="display:flex; flex: 0.1;justify-content: center; align-items: center;"  >
+                        <i class="fa fa-heart" ></i>
+
+                    </div>
+
+                </div>
+                <div style="display:flex;">
+                    <div class="img-block">
+                        <p style="padding:5px">02</p>
+                        <img src="album.jpg" style="width: 50px; height: 50px;" />
+                        <div class="msc-txt">
+                            <p style="margin: 0px;" >Mirage </p>
+                            <p style="margin: 0px;">Else</p>
+                        </div>
+                    </div>
+                    <div style="display:flex;flex: 0.6;" ></div>
+                    <div style="display:flex; flex: 0.1;justify-content: center; align-items: center;"  >
+                        <i class="fa fa-heart" ></i>
+
+                    </div>
+
+                </div>
+                <div style="display:flex;">
+                    <div class="img-block">
+                        <p style="padding:5px">03</p>
+                        <img src="album.jpg" style="width: 50px; height: 50px;" />
+                        <div class="msc-txt">
+                            <p style="margin: 0px;" >Mirage </p>
+                            <p style="margin: 0px;">Else</p>
+                        </div>
+                    </div>
+                    <div style="display:flex;flex: 0.6;" ></div>
+                    <div style="display:flex; flex: 0.1;justify-content: center; align-items: center;"  >
+                        <i class="fa fa-heart" ></i>
+
+                    </div>
+
+                </div>
+                <div style="display:flex;">
+                    <div class="img-block">
+                        <p style="padding:5px">04</p>
+                        <img src="album.jpg" style="width: 50px; height: 50px;" />
+                        <div class="msc-txt">
+                            <p style="margin: 0px;" >Mirage </p>
+                            <p style="margin: 0px;">Else</p>
+                        </div>
+                    </div>
+                    <div style="display:flex;flex: 0.6;" ></div>
+                    <div style="display:flex; flex: 0.1;justify-content: center; align-items: center;"  >
+                        <i class="fa fa-heart" ></i>
+
+                    </div>
+
+                </div>
+                
+
+            </recently>
+        </div>
+
+        <div class="fix">
+            <div class="img-block" style="flex:0.15;">
+                <img src="album.jpg" style="width: 40px; height: 40px;" />
+                <div class="msc-txt">
+                    <p style="margin: 0px;" >Mirage </p>
+                    <p style="margin: 0px;">Else</p>
+                </div>
+                <p style="padding:5px" class="fa fa-heart"></p>
+            
+            </div>
+            <div style=" display:flex;flex-direction:column;flex:0.6;justify-content: center; align-items: center;">
+                <div style="display: flex; align-items: center; justify-content:space-around;width: 30%;">                
+                    <a href="#" class="previous round">&#8249;</a>
+                    <i class="fa fa-pause"></i>
+                    <a href="#" class="next round">&#8250;</a>
+                </div>
+                <div class="music-player">
+                    <p style="margin: 0;">1:39</p>
+                    <progress value="20" max="100"></progress>
+                    <p style="margin: 0;">4:44</p>
+                </div>
+            </div>
+            <div style="flex: 0.25;"></div>
+        </div>
+
+    </screen>
+
+</body>
+</html>
